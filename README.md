@@ -1,1 +1,6 @@
 # MORSE-CODE-TRANSLATOR-USING-C
+Morse code is a communication system that uses dots and dashes to represent letters and numbers and was widely used in the early days of telegraph and radio communication. While it is not as commonly used today, it still has applications in certain areas such as emergency signaling and amateur radio communication.
+
+C program that encode and decode messages in Morse code. It includes a morse_ encode function that takes a character and returns the corresponding Morse code representation, and a morse _decode function that takes a Morse code string and returns the corresponding letter or number. The encode _message function uses the morse_ encode function to encode a message and print the resulting Morse code. The decode _message function uses the morse _decode function to decode a message in Morse code and print out the resulting letters or numbers.
+
+The main function reads in a message from the user, prompts the user to choose between encoding and decoding, and then calls the appropriate function. If an invalid choice is entered, it prints an error message. The program uses static arrays of Morse code representations and corresponding letters/numbers for the encoding and decoding functions. It also uses the strtok function to tokenize the input message into separate Morse code strings for decoding.
